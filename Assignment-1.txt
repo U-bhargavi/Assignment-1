@@ -1,0 +1,46 @@
+1 what you have learn on code concept?
+
+ans: I learned about basic concepts like flow chart, Algorithm, Programming, Function and control statements.
+
+2  How well you can impement with Example of simple code?
+
+ans: Find Factorial of a number using for loop.
+
+     programm:   public class Factorial 
+                 {                    
+                   public static void main(String[] args)
+                     {                   
+                      int num = 5;
+                      long factorial = 1;
+                      for(int i = 1;i<=num;++i)
+                      {
+                        factorial *= i;
+                       }
+                     System.out.printf("Factorial of %d = %d", num, factorial);
+                    }
+                  }
+   
+ 3. Arrays in Java programming
+
+ ans:  program: calculating sum of array's values
+
+                    class Test
+                       {
+                          public static void main(String args[])
+                           {
+                              int arr[] = {2,1,4,3,5};
+                           }
+                          public static void sum(int[] arr)
+                         {
+                         int sum = 0;
+                       for (int i = 0;i<array length;i++)
+                        sum+=arr[i];
+                       system.out.println("sum of array values : " + sum);
+                       }
+                      }
+
+4. Differences between sonar qube and sonar lint?
+ 
+ans: Sonarqube is a server where you can host your projects and execute analysis, whereas Sonarlint is an agent that allow us to connect with this sonarqube and execute the analysis remotely.sonarlint can be used with IDE or can also be executed via CLT commands.
+
+     
